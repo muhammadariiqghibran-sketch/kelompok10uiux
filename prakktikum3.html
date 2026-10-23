@@ -1,0 +1,179 @@
+<<!<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Web Profile</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .biodata {
+        display: flex;
+        padding: 20px;
+        gap: 7rem;
+      }
+      .biodata .gambar {
+        flex: 1;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+      }
+      .biodata .gambar img {
+        width: 200px;
+        height: 300px;
+        border: solid 2px black;
+        border-radius: 10px;
+      }
+      .biodata .isi-biodata {
+        flex: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1.2em;
+        width: 100%;
+        height: 100%;
+      }
+      .biodata .categories {
+        padding: 20px;
+        width: 200px;
+      }
+      .deskripsi-diri {
+        padding: 20px;
+        text-align: justify;
+      }
+      .konten-multimedia {
+        padding: 20px;
+        display: flex;
+        gap: 3rem;
+        justify-content: space-evenly;
+        align-self: center;
+      }
+
+      .konten-multimedia .area-video {
+        width: max-content;
+      }
+      .konten-multimedia .area-video iframe {
+        border: solid black 4px;
+        width: 500px;
+        height: 200px;
+      }
+      .konten-multimedia .koleksi-foto {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+      .konten-multimedia .koleksi-foto img {
+        width: 100px;
+      }
+      .konten-multimedia .download-file fieldset {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding: 10px;
+      }
+      .konten-multimedia .download-file fieldset legend {
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="biodata">
+      <div class="gambar">
+        <img src="WhatsApp Image 2026-10-22 at 13.16.38.jpeg" alt="" />
+      </div>
+      <div class="isi-biodata">
+        <h1>Biodata diri</h1>
+        <p>Nama lengkap: Muhammad Ariiq Ghibra</p>
+        <p>NIM anggota: 0110226030</p>
+        <p>lahir: Jakarta, 22 september 2008</p>
+        <p>
+          Program studi / Kelas / Jurusan: Teknik Informatika Tempat, tanggal
+        </p>
+        <p>Hobi: , olahraga, gym</p>
+        <p>
+          Instagram:
+          <a href="https://www.instagram.com/tnm37.09/" target="_blank"
+            >@tnm37.09</a
+          >
+        </p>
+      </div>
+      <div class="categories">
+        <h3>Minat dan bakat</h3>
+        <p>Olahraga</p>
+        <p>Gane</p>
+        <p>Music punk</p>
+        <p>Ngaji</p>
+      </div>
+    </div>
+    <div class="deskripsi-diri">
+      <p>
+        Nama saya Muhammad Ariiq Ghibran , seorang remaja berumur 18 tahun,
+        lahir pada tahun 2008 tanggal 22 bulan September. Saya tinggal di Kota
+        pasar Minggu, daerah Jatiwarna, Kecamatan Pondok Melati. Saya seorang
+        mahasiswa semester 1 jurusan teknik informatika di STT Terpadu Nurul
+        fikri.
+      </p>
+      <br />
+      <p>
+        Makanan favorit saya adalah soto kaki, saya suka olahraga terutama
+        olahraga fisik, saya suka main game, saya suka mendengarkan musik,
+        terutama yang jenisnya punk,metal,rock,ballad, dan pop.
+      </p>
+    </div>
+    <div class="konten-multimedia">
+      <div class="area-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/RYzLyUBf8tw?si=jUKoba6EVf2pZoMK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="koleksi-foto">
+        <img
+          src="WhatsApp Image 2026-10-22 at 13.19.09 (1).jpeg"
+          alt="foto osjur"
+        />
+        <img
+          src="WhatsApp Image 2026-10-22 at 13.19.09 (2).jpeg"
+          alt="foto ormik"
+        />
+        <img
+          src="WhatsApp Image 2026-10-22 at 13.19.09.jpeg"
+          alt="foto osjur"
+        />
+        <img
+          src="WhatsApp Image 2026-10-22 at 13.24.11.jpeg"
+          alt="foto temen"
+        />
+      </div>
+      <div class="download-file">
+        <fieldset>
+          <legend>Download File Prakktikum Lainnya</legend>
+          <a
+            href="../praktikummandiri01/kelompok_8_desainuiux_pemweb.html"
+            download="kelompok_8_desainuiux_pemweb.html"
+            >download_file_prakktikum01</a
+          >
+          <a
+            href="../praktikummandiri02/prak2_kelompok_8_desainuiux_pemweb.html"
+            download="prak2_kelompok_8_desainuiux_pemweb.html"
+            >download_file_prakktikum02</a
+          >
+          <a
+            href="../praktikummandiri03/web_profile.html"
+            download="web_profile.html"
+            >download_file_prakktikum03</a
+          >
+        </fieldset>
+      </div>
+    </div>
+  </body>
+</html>

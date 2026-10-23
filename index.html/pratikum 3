@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Profil Muhammad Ariiq Ghibran</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER: logo dan nama web -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <svg class="logo" viewBox="0 0 48 48" role="img" aria-label="Logo Ariiq">
+        <circle cx="24" cy="24" r="22" fill="#0a66c2"/>
+        <text x="24" y="30" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="17" font-weight="600" fill="#fff">AG</text>
+      </svg>
+      <div>
+        <h1 class="site-name">Profil Mahasiswa</h1>
+        <p class="site-tagline">Teknik Informatika, STT Terpadu Nurul Fikri</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- NAV: menu -->
+  <nav class="site-nav" aria-label="Menu utama">
+    <div class="wrap">
+      <ul>
+        <li><a href="#profil">Profil</a></li>
+        <li><a href="#tentang">Tentang Saya</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#galeri">Galeri</a></li>
+        <li><a href="#unduhan">Unduhan</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="wrap layout">
+
+    <!-- ARTICLE: konten utama, terdiri atas section-section -->
+    <article class="main-col">
+
+      <!-- Section 1: foto diri + biodata + kategori -->
+      <section id="profil" class="card profile">
+        <img class="avatar" src="img/foto-diri.jpg" alt="Foto Muhammad Ariiq Ghibran">
+
+        <div class="bio">
+          <h2 class="label">Nama Profil</h2>
+          <p class="name">Muhammad Ariiq Ghibran</p>
+
+          <dl class="biodata">
+            <dt>NIM</dt><dd>0110226030</dd>
+            <dt>Kelas</dt><dd>TI01</dd>
+            <dt>Umur</dt><dd>18 tahun</dd>
+            <dt>Program Studi</dt><dd>Teknik Informatika, angkatan 2026</dd>
+            <dt>Kampus</dt><dd>STT Terpadu Nurul Fikri</dd>
+            <dt>Email</dt><dd><a href="mailto:muhammadariiqghibranghibran@gmail.com">muhammadariiqghibranghibran@gmail.com</a></dd>
+            <dt>Telepon</dt><dd>0895321407962</dd>
+            <dt>Alamat</dt><dd>Pejaten Timur</dd>
+          </dl>
+        </div>
+
+        <div class="categories">
+          <h2 class="label">Kategori</h2>
+          <ul>
+            <li>Teknik Informatika</li>
+            <li>Olahraga (Gym)</li>
+            <li>Kegiatan Masjid</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Section 2: deskripsi diri (2 paragraf) -->
+      <section id="tentang" class="card about">
+        <h2 class="label">Tentang Saya</h2>
+        <p>
+          Halo, nama saya Muhammad Ariiq Ghibran, berumur 18 tahun. Saya mahasiswa Teknik Informatika
+          angkatan 2026 di STT Terpadu Nurul Fikri. Saya memilih kuliah di sini karena kampus ini
+          dikenal sebagai sekolah tinggi teknologi dan dikenal juga integritas keislamannya.
+        </p>
+        <p>
+          Hobi saya olahraga gym. Makanan favorit saya nasi padang dan minuman favorit saya jus jeruk.
+          Saat waktu luang, saya mengikuti kegiatan di masjid. Lewat halaman ini saya ingin
+          memperkenalkan diri, kegiatan, dan beberapa dokumentasi saya.
+        </p>
+      </section>
+
+      <!-- Section 3: video -->
+      <section id="video" class="card">
+        <h2 class="label">Video</h2>
+        <div class="video-box">
+          <video controls preload="metadata">
+            <source src="video/video-profil.mp4" type="video/mp4">
+            Browser kamu belum mendukung pemutar video.
+          </video>
+        </div>
+      </section>
+
+    </article>
+
+    <!-- ASIDE: konten multimedia foto + dokumen -->
+    <aside class="side-col">
+
+      <section id="galeri" class="card">
+        <h2 class="label">Galeri Foto</h2>
+        <div class="gallery">
+          <figure>
+            <a href="img/galeri-1.jpg" target="_blank" rel="noopener">
+              <img src="img/galeri-1.jpg" alt="Foto bersama teman-teman di depan tiang bendera" loading="lazy">
+            </a>
+            <figcaption>Bersama teman-teman</figcaption>
+          </figure>
+          <figure>
+            <a href="img/galeri-2.jpg" target="_blank" rel="noopener">
+              <img src="img/galeri-2.jpg" alt="Foto kebersamaan di dalam ruangan" loading="lazy">
+            </a>
+            <figcaption>Kebersamaan kelompok</figcaption>
+          </figure>
+          <figure>
+            <a href="img/galeri-3.jpg" target="_blank" rel="noopener">
+              <img src="img/galeri-3.jpg" alt="Foto bersama peserta orientasi akademik Aruna 2026" loading="lazy">
+            </a>
+            <figcaption>Orientasi Aruna 2026</figcaption>
+          </figure>
+          <figure>
+            <a href="img/galeri-4.jpg" target="_blank" rel="noopener">
+              <img src="img/galeri-4.jpg" alt="Foto bersama teman di area masjid" loading="lazy">
+            </a>
+            <figcaption>Di area masjid</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="unduhan" class="card">
+        <h2 class="label">Lampiran</h2>
+        <ul class="attachments">
+          <li><a href="dokumen/Biodata_Singkat.pdf" target="_blank" rel="noopener">Biodata Singkat (PDF)</a></li>
+          <li><a href="dokumen/CV_Muhammad_Ariiq_Ghibran.pdf" target="_blank" rel="noopener">Curriculum Vitae (PDF)</a></li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2 class="label">Unduh</h2>
+        <a class="btn" href="dokumen/CV_Muhammad_Ariiq_Ghibran.pdf" download>Unduh CV (PDF)</a>
+      </section>
+
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; 2026 Muhammad Ariiq Ghibran &middot; NIM 0110226030 &middot; Praktikum 3: Layout Halaman Web</p>
+    </div>
+  </footer>
+
+</body>
+</html>
