@@ -1,0 +1,120 @@
+/* ===== Dasar halaman ===== */
+body {
+  background-color: #f5f3e6;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 9px;
+  line-height: 1.15;
+  margin: 0;
+  padding: 16px 8px 8px;
+}
+
+.container {
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+/* ===== Header (kotak krem + judul biru + kutipan kuning) ===== */
+header {
+  background-color: #e0c9a0;
+  padding: 10px 24px 8px;
+  text-align: center;
+}
+
+header h1 {
+  color: #1a0dcc;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 8px;
+}
+
+header blockquote,
+.kutipan {
+  background-color: #ffd700;
+  border: 1px dotted #a18400;
+  margin: 0;
+  padding: 2px 4px;
+  text-align: center;
+  line-height: 1.1;
+}
+
+/* ===== Menu navigasi ===== */
+nav {
+  text-align: center;
+  margin: 8px 0 6px;
+}
+
+nav a {
+  color: #551a8b;
+  font-size: 10px;
+  text-decoration: underline;
+  margin: 0 2px;
+}
+
+/* ===== Foto burung (dua gambar berdampingan) ===== */
+.foto {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin: 6px 0 8px;
+}
+
+.foto img {
+  height: 106px;
+  width: 100px;
+  object-fit: cover;
+  display: block;
+}
+
+.foto img:first-child {
+  border-radius: 0;
+}
+
+/* ===== Paragraf ===== */
+p {
+  margin: 0 0 7px;
+  text-align: left;
+}
+
+/* Huruf pertama besar (drop cap) berwarna biru */
+.pembuka::first-letter {
+  float: left;
+  color: #1a0dcc;
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0 2px 0 0;
+}
+
+/* ===== Judul bagian ===== */
+h2 {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 7px 0 6px;
+}
+
+/* ===== Daftar ===== */
+ul {
+  margin: 0 0 12px;
+  padding-left: 15px;
+}
+
+ul li {
+  margin-bottom: 2px;
+}
+
+ol {
+  margin: 0 0 12px;
+  padding-left: 15px;
+}
+
+ol li {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Isi paragraf di dalam langkah budidaya tidak tebal */
+ol li p {
+  font-weight: normal;
+  margin: 2px 0 0;
+}
