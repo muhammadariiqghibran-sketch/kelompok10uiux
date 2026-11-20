@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        gap: 1rem;
+        margin: 10px;
+      }
+      .first-row {
+        gap: 1rem;
+        display: flex;
+        flex: 1;
+        .left-box {
+          background-color: yellow;
+          flex: 1;
+        }
+        .right-box {
+          background-color: red;
+          flex: 6;
+        }
+      }
+
+      .second-row {
+        flex: 5;
+        display: flex;
+        gap: 1rem;
+        .left-box {
+          background-color: lightgreen;
+          flex: 1;
+        }
+
+        .middle-box {
+          background-color: lightgray;
+          flex: 5;
+        }
+
+        .right-box {
+          background-color: lightskyblue;
+          flex: 1;
+        }
+      }
+
+      .third-row {
+        flex: 1;
+        display: flex;
+        gap: 1rem;
+        .box {
+          background-color: blue;
+          flex: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="first-row">
+      <div class="left-box"></div>
+      <div class="right-box"></div>
+    </div>
+    <div class="second-row">
+      <div class="left-box"></div>
+      <div class="middle-box"></div>
+      <div class="right-box"></div>
+    </div>
+    <div class="third-row">
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
